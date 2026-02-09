@@ -346,8 +346,8 @@ body {
 
   .home-sci {
     display: flex;
-    flex-direction: column;   /* icon + text vertical */
-    align-items: flex-start;  /* বাম দিকে ঠিকভাবে */
+    flex-direction: column;   
+    align-items: flex-start;  
     margin-top: 15px;
     gap: 15px;
   }
@@ -393,7 +393,7 @@ body {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 634px) {
   
 
   #menu-icon {
@@ -404,23 +404,23 @@ body {
     z-index: 1100;
     opacity: 0;
     animation: slideTop 0.8s ease forwards;
-    animation-delay: 2s; /* একটু delay */
+    animation-delay: 2s;
   }
 
   .navbar {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 40%;
+    width: 50%;
 
-    background: rgba(229, 231, 236, 0.01); /* transparent */
+    background: rgba(230, 248, 248, 0.01); 
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 20px;
     display: none;
     flex-direction: column;
     align-items: center;
-
-    padding: 25px 25px; /* 🔥 content অনুযায়ী height */
+    margin: 20px;
+    padding: 35px 20px; 
 
   
   }
@@ -439,7 +439,7 @@ body {
   .header {
     flex-direction: column;
     padding: 15px 2%;
-    background: transparent; /* 🔥 transparent header */
+    background: transparent;
   }
 
  
@@ -448,7 +448,7 @@ body {
   }
 
   .home-sci {
-    order: 1;          /* 🔥 সবার উপরে */
+    order: 1;         
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -456,12 +456,12 @@ body {
   }
 
   .home-image {
-    order: 2;          /* 🔥 মাঝখানে image */
+    order: 2;          
     margin-top: 20px;
   }
 
   .home-content {
-    order: 3;          /* 🔥 নিচে লেখা + button */
+    order: 3;          
     text-align: center;
     margin-top: 20px;
   }
