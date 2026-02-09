@@ -333,6 +333,32 @@ body {
 
 /* Responsive Media Queries */
 
+@media screen and (min-width: 991px) and (max-width: 1366px) {
+
+  .home {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .home-content {
+    margin-left: 0;
+  }
+
+  .home-sci {
+    display: flex;
+    flex-direction: column;   /* icon + text vertical */
+    align-items: flex-start;  /* বাম দিকে ঠিকভাবে */
+    margin-top: 15px;
+    gap: 15px;
+  }
+
+  .home-sci a {
+    margin: 6px 0;
+  }
+
+}
+
+
 @media screen and (max-width: 991px) {
   .header {
     padding: 20px 5%;
