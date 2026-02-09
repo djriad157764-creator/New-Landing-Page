@@ -369,7 +369,7 @@ body {
 
 @media screen and (max-width: 576px) {
   
-}
+
   #menu-icon {
     display: block;
     position: absolute;
@@ -416,18 +416,7 @@ body {
     background: transparent; /* 🔥 transparent header */
   }
 
-  /* .navbar {
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
-
-  /* .navbar a {
-    font-size: 14px;
-    margin: 5px 10px;
-    display: block;
-  } */
+ 
  .home {
     flex-direction: column;
   }
@@ -483,4 +472,5 @@ body {
   .image img {
     max-width: 250px;
   }
+
 }
